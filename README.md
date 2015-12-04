@@ -16,11 +16,13 @@ Installation
 
 - Install Heroku toolbelt
 
+```xml
 $ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh 
 
 $ git clone https://github.com/huberflores/GCMHeroku.git
 
 $ cd GCMHeroku
+```
 
 - Set GCM key from google console https://console.developers.google.com/
 
