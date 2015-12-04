@@ -1,6 +1,9 @@
 GCM in Heroku
 ============
 
+Ready to deploy in Heroku - Google Cloud Messaging (GCM)
+
+
 Requirements
 ==========
 
