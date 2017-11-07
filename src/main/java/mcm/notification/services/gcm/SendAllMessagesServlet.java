@@ -82,7 +82,7 @@ public class SendAllMessagesServlet extends BaseServlet {
         .delayWhileIdle(true)
         .addData("message", id)
         .build();
-        Result result = sender.send(message, registrationId, 5);
+        MulticastResult result = sender.send(message, registrationId, 5);
         results = Arrays.asList(result);
       } else if (id2 != null) {
         // send a single message using plain post
