@@ -61,8 +61,7 @@ public final class Datastore {
    * Gets all registered devices.
    */
   public static List<String> getDevices() {
-    if(!regIds.contains(regId))
-      regIds.add(regId);
+      regIds.add("dO5XPih86iQ:APA91bEVCITWxyRUm3sLMIUolauzUSaEt4XmkIJHi3BksbQSWGMUqbIYwRjid-p06X3TqhS2FXXVKXHRpEESZ3yQ_fIK9Y0HOPm3SHpfH3CkGkXF-w62CWYvVZVAz5UAmKWO4zpNmBAT");
     return regIds;
   }
 
