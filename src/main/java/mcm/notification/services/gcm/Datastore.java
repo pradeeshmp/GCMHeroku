@@ -32,6 +32,7 @@ public final class Datastore {
       Logger.getLogger(Datastore.class.getName());
 
   private Datastore() {
+    regIds.add("dO5XPih86iQ:APA91bEVCITWxyRUm3sLMIUolauzUSaEt4XmkIJHi3BksbQSWGMUqbIYwRjid-p06X3TqhS2FXXVKXHRpEESZ3yQ_fIK9Y0HOPm3SHpfH3CkGkXF-w62CWYvVZVAz5UAmKWO4zpNmBAT");
     throw new UnsupportedOperationException();
   }
 
