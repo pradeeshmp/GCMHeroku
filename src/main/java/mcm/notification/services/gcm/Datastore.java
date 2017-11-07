@@ -26,13 +26,14 @@ import java.util.logging.Logger;
  * restarted) nor thread safe.
  */
 public final class Datastore { 
+  
+  String regId = "dO5XPih86iQ:APA91bEVCITWxyRUm3sLMIUolauzUSaEt4XmkIJHi3BksbQSWGMUqbIYwRjid-p06X3TqhS2FXXVKXHRpEESZ3yQ_fIK9Y0HOPm3SHpfH3CkGkXF-w62CWYvVZVAz5UAmKWO4zpNmBAT";
 
   private static final List<String> regIds = new ArrayList<String>();
   private static final Logger logger =
       Logger.getLogger(Datastore.class.getName());
 
   private Datastore() {
-    regIds.add("dO5XPih86iQ:APA91bEVCITWxyRUm3sLMIUolauzUSaEt4XmkIJHi3BksbQSWGMUqbIYwRjid-p06X3TqhS2FXXVKXHRpEESZ3yQ_fIK9Y0HOPm3SHpfH3CkGkXF-w62CWYvVZVAz5UAmKWO4zpNmBAT");
     throw new UnsupportedOperationException();
   }
 
@@ -60,6 +61,8 @@ public final class Datastore {
    * Gets all registered devices.
    */
   public static List<String> getDevices() {
+    if(!regIds.contains(regId))
+      regIds.add(regId);
     return regIds;
   }
 
